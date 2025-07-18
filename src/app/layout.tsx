@@ -1,9 +1,11 @@
 import './globals.css'
+import styles from './page.module.css'
+import Image from 'next/image'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang='ja'>
-      <body>{children}</body>
+      <body className='bg-gray-100'>{children}</body>
     </html>
   )
 }

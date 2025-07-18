@@ -16,7 +16,7 @@ const eslintConfig = [
   {
     ignores: ['**/.next/**', '**/_next/**', '**/dist/**', '**/storybook-static/**', '**/lib/**'],
   },
-  ...compat.extends('next/core-web-vitals', 'prettier'),
+  ...compat.extends('prettier', 'tailwindcss'),
   {
     rules: {
       'react/jsx-sort-props': [
